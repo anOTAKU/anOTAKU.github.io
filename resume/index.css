@@ -45,7 +45,7 @@ a {
 }
 
 .container {
-  min-height: 600px;
+  min-height: 400px;
 }
 
 .profile {
@@ -199,14 +199,14 @@ a {
 .profile .contact-presentation {
   text-align: left;
   font-weight: 300;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 1200px) {
   .profile .contact-presentation {
-    margin-top: 70px;
-    margin-bottom: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 

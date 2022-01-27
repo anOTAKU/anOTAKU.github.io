@@ -1,29 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <script src="./index.js"></script>
-    <link rel="stylesheet" type="text/css" href="./index.css">
-  </head>
-  <body>
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
-    <div class="resume-wrapper">
-      <section class="profile section-padding">
-        <div class="container">
-          <div class="picture-resume-wrapper">
-            <div class="picture-resume">
-              <span
-                ><img
-                  src="https://scpic.chinaz.net/files/pic/pic9/202009/apic27858.jpg"
-                  alt=""
-              /></span>
-              <svg version="1.1" viewBox="0 0 350 350">
+<link>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>resume</title>
+<script src="./index.js"></script>
+<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <div class="resume-wrapper">
+    <section class="profile section-padding">
+      <div class="container">
+        <div class="picture-resume-wrapper">
+          <div class="picture-resume">
+            <span><img src="./img/avatar.jpg" alt="" /></span>
+            <!-- <svg version="1.1" viewBox="0 0 350 350">
                 <defs>
                   <filter id="goo">
                     <feGaussianBlur
@@ -127,157 +121,140 @@
                     r="122.7"
                   />
                 </g>
-              </svg>
-            </div>
-            <div class="clearfix"></div>
-          </div>
-          <div class="name-wrapper">
-            <h1>John <br />Anderson</h1>
-            <!-- YOUR NAME AND LAST NAME  -->
+              </svg> -->
           </div>
           <div class="clearfix"></div>
+        </div>
+        <div class="name-wrapper">
+          <h1>li <br />zchl</h1>
+          <!-- YOUR NAME AND LAST NAME  -->
+        </div>
+        <div class="clearfix"></div>
+        <div class="contact-info clearfix">
+          <ul class="list-titles">
+            <li>Call</li>
+            <li>Mail</li>
+            <li>Web</li>
+            <li>Home</li>
+          </ul>
+          <ul class="list-content">
+            <li>15272418503</li>
+            <!-- YOUR PHONE NUMBER  -->
+            <li>929768022@qq.com</li>
+            <!-- YOUR EMAIL -->
+            <li><a href="https://anotaku.github.io">https://anotaku.github.io</a></li>
+            <!-- YOUR WEBSITE  -->
+            <li>荆州, 湖北</li>
+            <!-- YOUR STATE AND COUNTRY  -->
+          </ul>
+        </div>
+        <div class="contact-presentation">
+          <!-- YOUR PRESENTATION RESUME  -->
+          <p>
+            <span class="bold">School:</span>
+          <p>三峡大学 计算机技术 硕士研究生 2020.9 - 2023.6</p>
+          <p>武汉东湖学院 自动化 本科 2016.9 - 2020.6</p>
+          </p>
+        </div>
+        <div class="contact-social clearfix">
+          <ul class="list-titles">
+            <li>Github</li>
+          </ul>
+          <ul class="list-content">
+            <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
+            <li><a href="https://github.com/anOTAKU">anOTAKU</a></li>
+            <!-- YOUR TWITTER USER  -->
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience section-padding">
+      <div class="container">
+        <h3 class="experience-title">项目经验</h3>
+
+        <div class="experience-wrapper">
+          <div>
+            <div class="company-wrapper clearfix">
+              <div class="experience-title">Project name</div>
+              <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+              <div class="time">2022.1 - 2022.2</div>
+              <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+            </div>
+
+            <div class="job-wrapper clearfix">
+              <div class="experience-title"><a href="https://github.com/anOTAKU/uni-shop">uni-app图书商城</a></div>
+              <!-- JOB TITLE  -->
+              <div class="company-description">
+                <p>
+                  uniapp项目，使用的是uview ui组件库和vue.js，对拦截器进行封装，对页面进行设计编写，完成账户的登录注册页面，购物车页面，首页，商品分类页面，商品详情页面等页面和逻辑的编写。
+                </p>
+                <!-- JOB DESCRIPTION  -->
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="company-wrapper clearfix">
+              <div class="experience-title">Project name</div>
+              <!-- NAME OF THE COMPANY YOUWORK WITH  -->
+              <div class="time">2021.12 - 2022.1</div>
+              <!-- THE TIME YOU WORK WITH THE COMPANY  -->
+            </div>
+
+            <div class="job-wrapper clearfix">
+              <div class="experience-title"><a href="https://github.com/anOTAKU/vue-manage-project">后台管理项目</a></div>
+              <!-- JOB TITLE  -->
+              <div class="company-description">
+                <p>
+                  基于vue.js，使用element-ui组件库，对axios进行封装，mock.js传递假数据接口，完成对用户管理，商品管理等页面的功能编写。
+                </p>
+                <!-- JOB DESCRIPTION  -->
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <!--Skill experience-->
+
+        <div class="section-wrapper clearfix">
+          <h3 class="section-title">Skills</h3>
+          <!-- YOUR SET OF SKILLS  -->
+          <ul>
+            <li class="skill-percentage">HTML / HTML5</li>
+            <li class="skill-percentage">CSS / CSS3 / SASS / LESS</li>
+            <li class="skill-percentage">Javascript</li>
+            <li class="skill-percentage">Jquery</li>
+            <li class="skill-percentage">Wordpress</li>
+            <li class="skill-percentage">Photoshop</li>
+          </ul>
+        </div>
+
+        <div class="section-wrapper clearfix">
+          <h3 class="section-title">自我介绍</h3>
+          <!-- DESCRIPTION OF YOUR HOBBIES -->
+          <p>
+            本人性格稳重、有活力，待人热情、真诚。有很强的职业道德，工作认真负责，能与周围工作环境建立良好的工作关系，并具有一定的资源协调能力，与同事，其它部门各极配合，有较强的实际动手能力和团体协作精神。能迅速的适应各种环境，并融合其中。
+          </p>
+        </div>
+
+        <div class="section-wrapper clearfix">
+          <h3 class="section-title">证书</h3>
+          <!-- DESCRIPTION OF YOUR HOBBIES -->
           <div class="contact-info clearfix">
             <ul class="list-titles">
-              <li>Call</li>
-              <li>Mail</li>
-              <li>Web</li>
-              <li>Home</li>
-            </ul>
-            <ul class="list-content">
-              <li>+34 123 456 789</li>
-              <!-- YOUR PHONE NUMBER  -->
-              <li>j.anderson@gmail.com</li>
-              <!-- YOUR EMAIL -->
-              <li><a href="#">janderson.com</a></li>
-              <!-- YOUR WEBSITE  -->
-              <li>Los Angeles, CA</li>
-              <!-- YOUR STATE AND COUNTRY  -->
-            </ul>
-          </div>
-          <div class="contact-presentation">
-            <!-- YOUR PRESENTATION RESUME  -->
-            <p>
-              <span class="bold">Lorem</span> ipsum dolor sit amet, consectetur
-              adipiscing elit. Vivamus euismod congue nisi, nec consequat quam.
-              In consectetur faucibus turpis eget laoreet. Sed nec imperdiet
-              purus.
-            </p>
-          </div>
-          <div class="contact-social clearfix">
-            <ul class="list-titles">
-              <li>Twitter</li>
-              <li>Dribbble</li>
-              <li>Codepen</li>
-            </ul>
-            <ul class="list-content">
-              <!-- REMEMBER TO PUT THE URL ON THE HREF TAG  -->
-              <li><a href="">@janderson</a></li>
-              <!-- YOUR TWITTER USER  -->
-              <li><a href="">janderson</a></li>
-              <!-- YOUR DRIBBBLE USER  -->
-              <li><a href="">janderson</a></li>
-              <!-- YOUR BEHANCE USER  -->
+              <li>CET-4</li>
+              <li>计算机软件考试：软件设计师(中级)</li>
+              <li>全国计算机软件考试：c语言</li>
+              <li>CAD证书</li>
             </ul>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="experience section-padding">
-        <div class="container">
-          <h3 class="experience-title">Experience</h3>
+    <div class="clearfix"></div>
+  </div>
+</body>
 
-          <div class="experience-wrapper">
-            <div class="company-wrapper clearfix">
-              <div class="experience-title">Company name</div>
-              <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-              <div class="time">Nov 2012 - Present</div>
-              <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-            </div>
-
-            <div class="job-wrapper clearfix">
-              <div class="experience-title">Front End Developer</div>
-              <!-- JOB TITLE  -->
-              <div class="company-description">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  a elit facilisis, adipiscing leo in, dignissim magna.
-                </p>
-                <!-- JOB DESCRIPTION  -->
-              </div>
-            </div>
-
-            <div class="company-wrapper clearfix">
-              <div class="experience-title">Company name</div>
-              <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-              <div class="time">Nov 2010 - Present</div>
-              <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-            </div>
-
-            <div class="job-wrapper clearfix">
-              <div class="experience-title">
-                Freelance, Web Designer / Web Developer
-              </div>
-              <!-- JOB TITLE  -->
-              <div class="company-description">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  a elit facilisis, adipiscing leo in, dignissim magna.
-                </p>
-                <!-- JOB DESCRIPTION  -->
-              </div>
-            </div>
-
-            <div class="company-wrapper clearfix">
-              <div class="experience-title">Company name</div>
-              <!-- NAME OF THE COMPANY YOUWORK WITH  -->
-              <div class="time">Nov 2009 - Nov 2010</div>
-              <!-- THE TIME YOU WORK WITH THE COMPANY  -->
-            </div>
-
-            <div class="job-wrapper clearfix">
-              <div class="experience-title">Web Designer</div>
-              <!-- JOB TITLE  -->
-              <div class="company-description">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-                  a elit facilisis, adipiscing leo in, dignissim magna.
-                </p>
-                <!-- JOB DESCRIPTION  -->
-              </div>
-            </div>
-          </div>
-          <!--Skill experience-->
-
-          <div class="section-wrapper clearfix">
-            <h3 class="section-title">Skills</h3>
-            <!-- YOUR SET OF SKILLS  -->
-            <ul>
-              <li class="skill-percentage">HTML / HTML5</li>
-              <li class="skill-percentage">CSS / CSS3 / SASS / LESS</li>
-              <li class="skill-percentage">Javascript</li>
-              <li class="skill-percentage">Jquery</li>
-              <li class="skill-percentage">Wordpress</li>
-              <li class="skill-percentage">Photoshop</li>
-            </ul>
-          </div>
-
-          <div class="section-wrapper clearfix">
-            <h3 class="section-title">Hobbies</h3>
-            <!-- DESCRIPTION OF YOUR HOBBIES -->
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
-              elit facilisis, adipiscing leo in, dignissim magna.
-            </p>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a
-              elit facilisis, adipiscing leo in, dignissim magna.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <div class="clearfix"></div>
-    </div>
-  </body>
 </html>
